@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rmverify
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: ./start.sh
+    repo: https://github.com/unrayed/rmlfg
+    branch: main
